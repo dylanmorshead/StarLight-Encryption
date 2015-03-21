@@ -22,6 +22,7 @@ StarLight Encryption usage
 if your still confused, here is a understandable example, for both encryption and decryption
 
 -e yes -f secretimage.png -p asupersecretpassword -cipher AES
+
 -d yes -f secretimage.png.aes -p asupersecretpassword -cipher AES
 
 for an example on how to write a plugin, check example.py
