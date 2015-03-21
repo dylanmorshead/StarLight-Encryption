@@ -17,9 +17,14 @@ StarLight Encryption usage
 
 -p password, classical password
 
--cipher AES, choose a cipher from the plugins, to write a plugin
+-cipher AES, choose a cipher from the plugins, to write a plugin(optional unless you want to use other plugins) default AES
 
-check example.py
+if your still confused, here is a understandable example, for both encryption and decryption
+
+-e yes -f secretimage.png -p asupersecretpassword -cipher AES
+-d yes -f secretimage.png.aes -p asupersecretpassword -cipher AES
+
+for an example on how to write a plugin, check example.py
 
 -show w - shows GNU licence
 
